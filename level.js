@@ -84,26 +84,6 @@ draw(score, lives) {
   pop();
 }
 
-  /*
-  draw(score, lives) {
-    push();
-    // TODO (Phase 5): Draw the timer, score, and lives here, before the
-    // junk, so they're underneath everything else.
-    //  - Timer: top left, as minutes:seconds. Use this.timeLeft() and
-    //    timeToStringParts().
-    //  - Score: top right, in the same text style as the timer.
-    //  - Lives: bottom left, one small Magpie for each spare life (lives - 1
-    //    of them). Magpie.drawMagpie() draws around (0, 0), so translate and
-    //    scale first.
-
-    // junk
-    for (const junk of this.junk) {
-      junk.draw();
-    }
-    pop();
-  }
-  */
-
   /**
    * Moves anything owned by the level (junk, comets, etc). If the `countTime`
    * argument is present and false, the timer doesn't advance, but everything
